@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #9cc2be;
+  line-height: 1.6;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color: #cfe5e3;
+  padding: 15px;
+  margin: 0;
+  border-top: 1px solid #9cc2be;
+  border-bottom: 1px solid #9cc2be;
+}
+
+nav ul li {
+  margin: 0 20px;
+  padding: 5px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #e1f0ee;
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-img {
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid #9cc2be;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2 {
+  color: #2a5a5a;
+  border-bottom: 1px solid #9cc2be;
+  padding-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #999;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.radio-group {
+  margin: 10px 0;
+}
+
+.radio-group label {
+  margin-right: 15px;
+  font-weight: normal;
+}
+
+form button {
+  margin-top: 15px;
+  width: 100px;
+  padding: 0.7rem;
+  background-color: #2a5a5a;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+form button:hover {
+  background-color: #1d4141;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #cfe5e3;
+  font-size: 0.9rem;
+  border-top: 1px solid #9cc2be;
+}
